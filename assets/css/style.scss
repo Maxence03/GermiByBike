@@ -21,14 +21,13 @@ body {
 /* ————————————————————————
    Container central pour le contenu
    ———————————————————————— */
-.content-container {
+
+.wrapper.content-container {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.85);
+  margin: 2rem auto !important;
+  padding: 2rem !important;
+  background: rgba(255, 255, 255, 0.85) !important;
   border-radius: 12px;
-  /* Optionnel : flou d’arrière-plan — joli effet si l'image a des zones claires */
   backdrop-filter: blur(4px);
-  /* Si tu veux un fond uni opaque, remplacer rgba(...) par une couleur opaque : e.g. #ffffff */
   color: #333;
 }
