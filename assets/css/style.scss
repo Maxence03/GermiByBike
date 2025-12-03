@@ -1,6 +1,8 @@
+---
+---
+
 @import "jekyll-theme-minimal";
 
-/* Fond général du site */
 body.site-background {
   margin: 0;
   padding: 0;
@@ -11,7 +13,6 @@ body.site-background {
   font-family: sans-serif;
 }
 
-/* Zone centrale avec fond blanc semi-transparent */
 .content-container {
   max-width: 900px;
   margin: 2rem auto !important;
