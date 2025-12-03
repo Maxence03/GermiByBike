@@ -1,33 +1,23 @@
----
----
-
 @import "jekyll-theme-minimal";
 
-html, body {
+/* Fond général du site */
+body.site-background {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-}
-
-body {
   background: url("../img/indus1.jpg") no-repeat center center fixed;
   background-size: cover;
-  /* couleur de secours si image non chargée */
-  background-color: #f0f0f0;
   font-family: sans-serif;
 }
 
-/* ————————————————————————
-   Container central pour le contenu
-   ———————————————————————— */
-
-.wrapper.content-container {
+/* Zone centrale avec fond blanc semi-transparent */
+.content-container {
   max-width: 900px;
   margin: 2rem auto !important;
   padding: 2rem !important;
-  background: rgba(255, 255, 255, 0.85) !important;
-  border-radius: 12px;
-  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.88) !important;
+  border-radius: 15px;
+  backdrop-filter: blur(3px);
   color: #333;
 }
