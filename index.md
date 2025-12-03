@@ -5,7 +5,7 @@ layout: default
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
-- [Journal de bord](jdb.md)
+- [Journal de bord](./jdb.html)
 
 There should be whitespace between paragraphs.
 
