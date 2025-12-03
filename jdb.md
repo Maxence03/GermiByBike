@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Journal de bord
 ---
 
 # Journal de bord
