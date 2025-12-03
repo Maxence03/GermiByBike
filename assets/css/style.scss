@@ -3,10 +3,32 @@
 
 @import "jekyll-theme-minimal";
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background: url("images/indus1.png") no-repeat center center fixed;
-    background-size: cover;
-    font-family: sans-serif;
+  background: url("images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* couleur de secours si image non chargée */
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+}
+
+/* ————————————————————————
+   Container central pour le contenu
+   ———————————————————————— */
+.content-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  /* Optionnel : flou d’arrière-plan — joli effet si l'image a des zones claires */
+  backdrop-filter: blur(4px);
+  /* Si tu veux un fond uni opaque, remplacer rgba(...) par une couleur opaque : e.g. #ffffff */
+  color: #333;
 }
